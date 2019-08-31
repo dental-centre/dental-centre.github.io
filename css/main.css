@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400|Playfair+Display');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+#fullheight {
+    min-height: 100% !important;
+    height: 100%;
+    background: #ffffff;
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #f4f4f4 100%);
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%, #f4f4f4 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #f4f4f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f4f4f4', GradientType=1);
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #666;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.inner-wrapper {}
+
+.message-container {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 250%;
+}
+
+.title-container {
+    font-family: 'Playfair Display', serif;
+    font-size: 700%;
+}
+
+.contact-container {
+    margin: 20px;
+}
+
+.top-logo img {
+    height: 15vh;
+}
+
+.small {
+    font-size: 150% !important;
+}
+
+.extra-large {
+    font-size: 1000% !important;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+.number {
+    transform: translateY(-20%);
+}
+
+.input-container {
+    padding: 30px;
+}
+
+.access-code-input {
+    text-align: center;
+    transition: border 0.5s;
+    padding: 10px;
+    border: 5px #ddd solid;
+}
+
+.access-code-input:focus {
+    outline: none;
+    border: 5px #267dce solid;
+}
+
+.validate {
+    border: 5px #267dce solid;
+}
+
+.success {
+    border: 5px #2eec96 solid;
+    background-image: url("data:image/svg+xml,%3Csvg width='45px' height='34px' viewBox='0 0 45 34' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate%28-56.000000, -59.000000%29' fill='%232EEC96'%3E%3Cpolygon points='70.1468531 85.8671329 97.013986 59 100.58042 62.5664336 70.1468531 93 56 78.8531469 59.5664336 75.2867133'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center right;
+    background-origin: content-box;
+}
+
+.error {
+    border: 5px #f00 solid;
+    background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate%28-128.000000, -59.000000%29' fill='%23F44336'%3E%3Cpolygon points='157.848404 61.9920213 145.980053 73.8603723 157.848404 85.7287234 154.856383 88.7207447 142.988032 76.8523936 131.119681 88.7207447 128.12766 85.7287234 139.996011 73.8603723 128.12766 61.9920213 131.119681 59 142.988032 70.8683511 154.856383 59'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center right;
+    background-origin: content-box;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    font-size: var(--font-size-small);
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.2s ease-out;
+}
+
+input:placeholder-shown+label {
+    opacity: 0;
+    transform: translateY(1rem);
+}
+
+.fa {
+    padding: 15px;
+    font-size: 20px !important;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+
+a:hover.fa {
+    color: white;
+    cursor: pointer;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope {
+    background: #2c4762;
+    color: white;
+}
+
+.fa-phone {
+    background: #2c4762;
+    color: white;
+}
+
+@media (max-width:500px) {
+    .message-container {
+        font-size: 180%;
+    }
+}
