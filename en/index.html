@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html class="js cssanimations" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dental Centre Voorburg | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/660d38cda5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/component.css" />
+    <link rel="stylesheet" type="text/css" href="../css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=momh&tracking=1&always=1&hideDetailsBtn=1">
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/shortcuts/inview.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</head>
+
+<body>
+    <nav class="menu-container">
+        <div class="mobile">
+            <div class="menu-popup" id="mobile-popup">
+                <div class="navbar">
+                    <a href="#" class="current-page">
+                        <span>Home</span>
+                    </a>
+                    <a href="about.html">
+                        <span>Team</span>
+                    </a>
+                    <a href="register.html">
+                        <span>Registration</span>
+                    </a>
+                    <a href="appointment.html">
+                        <span>Appointments</span>
+                    </a>
+                    <a href="treatments.html">
+                        <span>Treatments</span>
+                    </a>
+                    <a href="tariffs.html">
+                        <span>Tariffs & Payments</span>
+                    </a>
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+                    <a href="../index.html">
+                        <span>Dutch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="static landing">
+                <a href="index.html">
+                    <div class="logo-container"></div>
+                </a>
+
+                <div class="mobile-menu-toggle"></div>
+
+            </div>
+        </div>
+
+        <div class="desktop">
+            <div class="menu-popup" id="desktop-popup">
+                <div class="navbar">
+                    <a href="#" class="current-page">
+                        <span>Home</span>
+                    </a>
+                    <a href="about.html">
+                        <span>Team</span>
+                    </a>
+                    <a href="register.html">
+                        <span>Registration</span>
+                    </a>
+                    <a href="appointment.html">
+                        <span>Appointments</span>
+                    </a>
+                    <a href="treatments.html">
+                        <span>Treatments</span>
+                    </a>
+                    <a href="tariffs.html">
+                        <span>Tariffs & Payments</span>
+                    </a>
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+                    <a href="../index.html">
+                        <span>Dutch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="static landing">
+                <a href="index.html">
+                    <div class="logo-container"></div>
+
+                </a>
+
+                <div class="desktop-menu-toggle">
+                </div>
+
+                <div class="nav-container">
+                    <div class="navbar">
+                        <a href="#" class="current-page">
+                            <span>Home</span>
+                        </a>
+                        <a href="about.html">
+                            <span>Team</span>
+                        </a>
+                        <a href="register.html">
+                            <span>Registration</span>
+                        </a>
+                        <a href="appointment.html">
+                            <span>Appointments</span>
+                        </a>
+                        <a href="treatments.html">
+                            <span>Treatments</span>
+                        </a>
+                        <a href="tariffs.html">
+                            <span>Tariffs & Payments</span>
+                        </a>
+                        <a href="contact.html">
+                            <span>Contact</span>
+                        </a>
+                        <a href="../index.html">
+                            <span>Dutch</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="landing-section">
+            <div class="banner"></div>
+            <script>
+                var current = 1
+                var url = ['../img/slides/cover-1.jpeg', '../img/slides/cover-2.jpeg', '../img/slides/cover-3.jpeg',
+                    '../img/slides/cover-4.jpeg', '../img/slides/cover-5.jpeg'
+                ]
+
+                setInterval(function () {
+                    current = (current != url.length - 1) ? current + 1 : 0;
+                    $('.landing-section .banner').css({
+                        "background-image": "url('" + url[current] + "')"
+                    });
+                }, 3000);
+            </script>
+        </section>
+
+        <section class="content landing-information" style="padding-top: 0 !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="title">Welcome to the website of Dental Center Voorburg.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                            <p style="text-align: center; font-size: large;font-style: italic;font-weight: lighter; margin-bottom: 30px;">
+                                Personal care and quality are central to the care that the dentists at Dental Center Voorburg 
+                                offer you. Because good oral care is also important for your general health (and for 
+                                a first impression), they also provide advice for the personal care of your mouth and teeth. 
+                                Two dentists are currently working within the center:</p>
+                            <a href="./about.html"><button class="inverted-round-button">Mrs. A. Marwah</button></a>
+                            <a href="./about.html"><button class="inverted-round-button">Dr. A.A.M.J. van Eck</button></a>
+                            <br><br>
+                            <h2 style="text-align: center; margin-bottom: 30px;">"We are taking new patients"</h2>
+                            <a href="./register.html"><button class="round-button blue small">Register Now</button></a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="content call-background">
+            <div class="container">
+                <div class="row vertical-center-row">
+                    <div class="twelve columns">
+                        <h1>For healthy and beautiful teeth!</h1>
+                    </div>
+                </div>
+                <div class="row vertical-center-row">
+                    <div class="three columns">
+                        <i class="fas fa-clock" aria-hidden="true"></i>
+                        <div class="data">
+                            <div class="title">Opening hours</div>
+                            <div>Mon-Thus: 8h-17h</div>
+                            <div>Fri: 9h-12h</div>
+                        </div>
+
+                    </div>
+                    <div class="three columns">
+                        <i class="fas fa-envelope"></i>
+                        <div class="data">
+                            <div class="title">Email</div>
+                            <div><a href="mailto:receptie@dental-centre.nl">receptie@dental-centre.nl</a></div>
+                        </div>
+                    </div>
+                    <div class="three columns">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="data">
+                            <div class="title">Telephone</div>
+                            <div><a href="tel:+31703832349">070 - 3832349</a></div>
+                        </div>
+                    </div>
+                    <div class="three columns">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="data">
+                            <div class="title">Whatsapp</div>
+                            <div><a href="https://wa.me/31658972363">06 - 58972363</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content landing-information">
+            <div class="container">
+                <div class="row vertical-center-row">
+                    <div class="twelve columns">
+                        <h1>OUR PRACTICE</h1>
+                        <h2 style="text-align: center; margin-bottom: 30px;">"Personal oral care and attention with a smile on our face"</h2>
+
+                        <p class="justify">At the Dental Center Voorburg we deliver personal and modern oral care within one practice! 
+                            Every patient receives personal care from us that goes further than just the teeth. This also includes prevention 
+                            (the prevention of cavities and gum disease), the treatment of anxious patients who receive our special attention, 
+                            and the supervision of children and young people so that they too can achieve optimum oral hygiene. The personal 
+                            approach is central to our team, so that we can offer you high-quality care, and we also provide it with a smile. 
+                            Many patients have been coming to practice for several decades and we are therefore happy to chat to continue the 
+                            long-term relationship and to know better what you, as a patient, expect from your dentist. In addition, we are 
+                            transparent about the various treatment options and the associated rates.</p>
+
+                    </div>
+                </div>
+
+                <div class="row vertical-center-row">
+                    <div class="six columns"> <img src="../img/krt-logo.svg" class="small-img" alt="KRT Logo">
+                    </div>
+                    <div class="six columns">
+                        <h2 style="text-align: center; margin-bottom: 30px;">"We are registered with KRT, the quality register for Dentists in Netherlands"</h2>
+                        <a href="https://tandartsregister.nl/over-krt/"><button class="round-button blue small">Read more (in Dutch only)</button></a>
+
+                    </div>
+                </div>
+
+                <div class="horizontal-seperator black"></div>
+                <div class="row vertical-center-row">
+
+                    <div class="six columns"> <img class="small-img" src="../img/pain-tooth.svg" alt="Broken Tooth"></div>
+                    <div class="six columns">
+                        <h1>Tooth ache?</h1>
+                        <p class="justify">Contact us, we will ensure that you receive the necessary attention as quickly as possible.</p>
+                        <a href="./appointment.html#emergency"><button class="round-button blue small">Make an urgent appointment</button></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section class="content call-background">
+            <div class="footer">
+                <div class="container">
+                    <div class="row vertical-center-row">
+                        <div class="one-third column">
+                            <div class="logo-container white"></div>
+                            <div class="footer-container">
+                                <div>&copy; 2019</div>
+                                <address>Koningin Wilhelminalaan 541-B <br />2274BE Voorburg</address>
+                            </div>
+
+                        </div>
+                        <div class="one-third column">
+                            <div class="footer-heading">Practical information</div>
+                            <ul class="no-style">
+                                <li><a href="./contact.html">Route & Contact</a></li>
+                                <li><a href="./contact.html#directions">Parking your car</a></li>
+                                <li><a href="./contact.html#directions">Public transport</a></li>
+                                <li><a href="./appointment.html#emergency">Emergency</a></li>
+                            </ul>
+                        </div>
+                        <div class="one-third column">
+                            <div class="footer-heading">
+                                Useful links
+                            </div>
+                            <ul class="no-style">
+                                <li><a href="https://www.allesoverhetgebit.nl/">Everything about teeth (in Dutch only)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="../slick/slick.min.js"></script>
+
+</body>
+
+</html>
