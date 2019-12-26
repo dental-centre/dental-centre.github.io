@@ -163,7 +163,8 @@
                         <p class="justify">
                             Wilt u zich inschrijven als nieuwe patiënt? Belt u ons dan tijdens kantoortijden
                             voor een afspraak (<a style="color: blue" href="tel:+31703832349">070 - 383 98 42</a>) of
-                            stuur ons een bericht op WhatsApp op <a style="color: blue" href="https://wa.me/31658972363">06 - 58972363</a>
+                            stuur ons een bericht op WhatsApp op <a style="color: blue"
+                                href="https://wa.me/31658972363">06 - 58972363</a>
                             of stuur een e-mail naar <a style="color: blue"
                                 href="mailto:receptie@dental-centre.nl">receptie@dental-centre.nl</a>
                         </p>
@@ -174,8 +175,31 @@
             </div>
         </section>
 
-        <!-- <section class="content main-text" style="padding-bottom: 0;">
+        <section class="content main-text" style="padding-bottom: 0;">
             <div class="container form">
+                <div class="form-overlay">
+                    <div class="message-container">
+                        <div class="success">
+                            <div>Formulier succesvol verzonden!</div>
+                            <div class="button" onclick="resetForm()">Verzend een ander formulier</div>
+                        </div>
+                        <div class="failure">
+                            <div>Formulierverzending is mislukt!</div>
+                            <div>
+                                <div class="button" onclick="closeFormOverlay()">Probeer het opnieuw</div>
+                            </div>
+                        </div>
+                        <div class="loading">
+                            <div class="lds-ring">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row vertical-center-row">
                     <div class="twelve columns small-text">
                         <h2>Inschrijven als nieuwe patiënt</h2>
@@ -185,57 +209,62 @@
                             <div class="form-container">
                                 <div class="input-container">
                                     <label for="firstname">Voornaam*:</label>
-                                    <input type="text" class="form-input" name="firstname">
+                                    <input type="text" class="form-input" name="firstname" required>
                                 </div>
                                 <div class="input-container">
                                     <label for="lastname">Achternaam*:</label>
-                                    <input type="text" class="form-input" name="lastname">
+                                    <input type="text" class="form-input" name="lastname" required>
                                 </div>
                                 <div class="input-container">
                                     <label for="dob">Geboortedatum*:</label>
-                                    <input type="date" class="form-input" name="dob">
+                                    <input type="date" class="form-input" name="dob" required>
                                 </div>
                                 <div class="input-container">
                                     <label for="email">E-Mail*:</label>
-                                    <input type="text" class="form-input" name="email">
+                                    <input type="text" class="form-input" name="email" required>
                                 </div>
                                 <div class="input-container">
-                                    <label for="cnfmemail">BSN:</label>
+                                    <label for="BSN">BSN:</label>
                                     <input type="text" class="form-input" name="BSN">
                                 </div>
                                 <div class="input-container">
                                     <label for="gender">Geslacht*:</label>
-                                    <select class="form-input" name="gender">
+                                    <select class="form-input" name="gender" required>
                                         <option value="Male">Man</option>
                                         <option value="Female">Vrouw</option>
                                         <option value="Other">Ander</option>
                                     </select>
                                 </div>
                                 <div class="input-container">
-                                    <label for="user-name">Telefoonnummer*:</label>
-                                    <input type="text" class="form-input" name="mobile">
+                                    <label for="mobile">Telefoonnummer*:</label>
+                                    <input type="text" class="form-input" name="mobile" required>
                                 </div>
                                 <div class="input-container">
-                                    <label for="password">Opmerkingen:</label>
+                                    <label for="comments">Opmerkingen:</label>
                                     <input type="text" class="form-input" name="comments">
                                 </div>
                                 <p class="justify">Na ontvangst van uw gegevens bellen wij u binnen twee werkdagen voor
                                     het
                                     maken van een afspraak.
-                                    Uw gegevens worden vertrouwelijk behandeld. Onze praktijk voldoet aan de Algemene Verordening Gegevensbescherming.
+                                    Uw gegevens worden vertrouwelijk behandeld. Onze praktijk voldoet aan de Algemene
+                                    Verordening Gegevensbescherming.
                                     Inschrijven is ook mogelijk via telefoon of door
                                     binnen te lopen in onze praktijk.</p>
-                                    <div class="button squared-button inverted-button" id="submit">Verzenden</div>
-                                    <div class="button squared-button" id="reset" onclick="$('#register-form')[0].reset()">Wissen</div>
+                                <p id="fill-required-fields">
+                                    Vul alstublieft de verplichte velden in!
+                                </p>
+                                <div class="button squared-button inverted-button" id="submit">Verzenden</div>
+                                <div class="button squared-button" id="reset" onclick="$('#register-form')[0].reset()">
+                                    Wissen</div>
                             </div>
                         </form>
 
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
-        <section class="content main-text" style="margin-top: -70px;">
+        <section class="content main-text">
             <div class="container">
                 <div class="row vertical-center-row">
                     <div class="twelve columns small-text">

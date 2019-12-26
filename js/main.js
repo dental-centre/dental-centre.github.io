@@ -44,32 +44,56 @@ function main() {
 
    
 
-    if($("#register-form #submit")[0]) {
-        $("#register-form #submit")[0].addEventListener("click", function() {
+    if ($("#register-form #submit")[0]) {
+        $("#register-form #submit")[0].addEventListener("click", function () {
             console.log($("#register-form").serializeArray());
-    
+
+            let incomplete = false;
+            let inputs = $(".form-container div input");
+            for (let i=0; i<inputs.length; i++) {
+                if(inputs[i].required) {
+                    if(inputs[i].value.length == 0) {
+                        inputs[i].style.border = "1px solid red";
+                        incomplete = true;
+                    }
+                    else {
+                        inputs[i].style.border = "none";
+                    }
+                }
+            }
+
+            if(incomplete) {
+                $('#fill-required-fields').css('display', 'block');
+                return;
+            }
+            else {
+                $('#fill-required-fields').css('display', 'none');
+            }
+
+            $(".form-overlay").css('display', 'flex');
+
             $.ajax({
-                url: 'https://api-singh.herokuapp.com/mailserver/submit/',
-                dataType: 'json',
+                url: 'https://nodesingh.herokuapp.com/mailserver',
                 type: 'post',
                 headers: {
                     'Access-Control-Allow-Origin': '*'
                 },
                 contentType: 'application/json',
                 data: JSON.stringify($("#register-form").serializeArray()),
-                crossData:true,
+                crossData: true,
                 processData: false,
-                success: function( data, textStatus, jQxhr ){
-                    alert("Registration Successful, we will get back to you shortly!");
-                    $('#register-form')[0].reset();
+                success: function (data, textStatus, jQxhr) {
+                    $(".form-overlay .loading").css('display', 'none');
+                    $(".form-overlay .success").css('display', 'block');
                 },
-                error: function( jqXhr, textStatus, errorThrown ){
-                    alert("Error submitting form, please try again later!");
+                error: function (jqXhr, textStatus, errorThrown) {
+                    $(".form-overlay .loading").css('display', 'none');
+                    $(".form-overlay .failure").css('display', 'block');
                 }
             });
         })
     }
-    
+   
 
     if($('#tableContainer')[0]) {
         let data = $.ajax({
@@ -94,6 +118,19 @@ function main() {
     }
 
 }
+
+function closeFormOverlay() {
+    $(".form-overlay").css('display', 'none');
+    $(".form-overlay .loading").css('display', 'block');
+    $(".form-overlay .success").css('display', 'none');
+    $(".form-overlay .failure").css('display', 'none');
+}
+
+function resetForm() {
+    closeFormOverlay();
+    $('#register-form')[0].reset();
+}
+
 
 function addAccordionListeners() {
     var acc = document.getElementsByClassName("accordion");
