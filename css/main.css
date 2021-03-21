@@ -262,6 +262,83 @@ img {
     font-weight: 700;
 }
 
+.tablet-call-container .header-call-container,
+.logo-outer-container .header-call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-outer-container .header-call-container.phantom {
+    visibility: hidden;
+}
+
+.tablet-call-container .header-call-container i,
+.logo-outer-container .header-call-container i {
+    padding: 15px;
+    font-size: 40px;
+}
+
+.mobile-call-container {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    z-index: 5;
+}
+
+.mobile-call-container i {
+    font-size: 30px;
+}
+
+.tablet-call-container .header-call-container .data,
+.logo-outer-container .header-call-container .data {
+    font-family: forma-djr-text;
+    font-weight: 300;
+    text-align: left;
+    font-size: 17px;
+}
+
+.tablet-call-container .header-call-container .data .title,
+.logo-outer-container .header-call-container .data .title {
+    font-weight: 700;
+}
+
+.tablet-call-container {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #eee;
+}
+
+.header-call-container, 
+.mobile-call-container a, 
+.header-call-container a {
+    color: #eee;
+}
+
+.header-call-container a:hover,
+.mobile-call-container a:hover {
+    color: #ddd;
+}
+
+.landing .header-call-container, 
+.landing .mobile-call-container {
+    color: #222;
+}
+
+.landing .header-call-container a,
+.landing .mobile-call-container a  {
+    color: #1EAEDB;
+}
+
+.landing .header-call-container a:hover,
+.landing .mobile-call-container a:hover {
+    color: #0FA0CE;
+}
+
 .teal-background {
     color: #eee;
     background: #6989A2;
@@ -651,6 +728,18 @@ footer {
 
 .desktop .logo-container {
     margin: 17px;
+}
+
+.desktop .logo-outer-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1130px;
+}
+
+.desktop .tablet-logo {
+    display: none;
 }
 
 .load-frame {
@@ -2266,6 +2355,18 @@ div.banner.tariffs {
     }
 
     .desktop .desktop-menu-toggle {
+        display: block;
+    }
+
+    .desktop .tablet-call-container {
+        display: block;
+    }
+
+    .desktop .logo-outer-container {
+        display: none;
+    }
+
+    .desktop .tablet-logo {
         display: block;
     }
 

@@ -98,7 +98,7 @@ function main() {
     if($('#tableContainer')[0]) {
         let data = $.ajax({
             type: "GET",
-            url: "https://raw.githubusercontent.com/dental-centre/dental-centre.github.io/master/data/tarief_2019.csv",
+            url: "https://raw.githubusercontent.com/dental-centre/dental-centre.github.io/master/data/tarief_2021.csv",
             success: function (response) {
                 splitTables(response, $('#tableContainer'));
                 addAccordionListeners();
