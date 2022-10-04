@@ -98,7 +98,7 @@ function main() {
     if($('#tableContainer')[0]) {
         let data = $.ajax({
             type: "GET",
-            url: "https://raw.githubusercontent.com/dental-centre/dental-centre.github.io/master/data/tarief_2021.csv",
+            url: "https://raw.githubusercontent.com/dental-centre/dental-centre.github.io/master/data/tarief_2022.csv",
             success: function (response) {
                 splitTables(response, $('#tableContainer'));
                 addAccordionListeners();
@@ -109,7 +109,7 @@ function main() {
     if($('#tableContainer_en')[0]) {
         let data = $.ajax({
             type: "GET",
-            url: "https://raw.githubusercontent.com/dental-centre/dental-centre.github.io/master/data/tarief_2021_en.csv",
+            url: "https://raw.githubusercontent.com/dental-centre/dental-centre.github.io/master/data/tarief_2022_en.csv",
             success: function (response) {
                 splitTables(response, $('#tableContainer_en'));
                 addAccordionListeners();
