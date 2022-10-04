@@ -1,0 +1,362 @@
+Verdoving (A);;
+Code;Prestaties;Tarief
+A10;Geleidings-, infiltratie- en/of intraligamentaire verdoving;€ 15,43
+A15;Oppervlakte verdoving;€ 8,02
+A20;Behandeling onder algehele anesthesie of sedatie;€kostprijs
+A30;Voorbereiding behandeling onder algehele anesthesie;€ 49,38
+;;
+Verdoving door middel van een roesje (B);;
+Code;Prestaties;Tarief
+B10;Introductie roesje (lachgassedatie);€ 30,86
+B11;Toediening roesje (lachgassedatie);€ 30,86
+B12;Overheadkosten roesje (lachgassedatie);€ 38,04
+;;
+Consultatie en Diagnostiek (C);;
+Code;Prestaties;Tarief
+C001;Consult ten behoeve van een intake;€ 46,91
+C002;Consult voor een periodieke controle;€ 23,45
+C003;Consult, niet zijnde periodieke controle;€ 23,45
+C010;Aanvullende medische anamnese na (schriftelijke) routinevragen;€ 23,45
+C011;Uitgebreid onderzoek ten behoeve van een second opinion;€ 111,10
+C012;Uitgebreid onderzoek ten behoeve van het integrale behandelplan;€ 111,10
+C013 *;Studiemodellen;€ 30,86
+C014;Pocketregistratie;€ 37,03
+C015;Parodontiumregistratie;€ 74,07
+C020;Mondzorg aan huis;€ 18,52
+C021;Toeslag avond, nacht en weekend uren (anw-uren);€ 25,92
+;;
+Wortelkanaalbehandelingen (E);;
+Code;Prestaties;Tarief
+E02;Uitgebreid wortelkanaalbehandeling consult;€ 43,21
+E03;Consult na tandheelkundig ongeval;€ 33,95
+E04;Toeslag voor kosten bij gebruik van roterende nikkel-titanium instrumenten;€ 49,71
+E13;Wortelkanaalbehandeling per element met 1 kanaal;€ 111,10
+E14;Wortelkanaalbehandeling per element met 2 kanalen;€ 160,48
+E16;Wortelkanaalbehandeling per element met 3 kanalen;€ 209,86
+E17;Wortelkanaalbehandeling per element met 4 of meer kanalen;€ 259,24
+E19;Insluiten calciumhydroxide of daarmee vergelijkbare desinfectans per element, per zitting;€ 18,52
+E31;Snij-/ hoektand;€ 123,45
+E32;Premolaar;€ 172,83
+E33;Molaar;€ 222,20
+E34*;Aanbrengen retrograde vulling;€ 24,69
+E36*;Het trekken van een element met re-implantatie;€ 86,41
+E37;Kijkoperatie;€ 74,07
+E40;Directe pulpa-overkapping;€ 30,86
+E42;Terugzetten van een verplaatst element na tandheelkundig ongeval;€ 12,34
+E43*;Vastzetten element d.m.v. een spalk na tandheelkundig ongeval;€ 24,69
+E44;Verwijderen spalk, per element;€ 6,17
+E45;Aanbrengen rubberdam;€ 12,34
+E51;Verwijderen van kroon of brug;€ 37,03
+E52;Moeilijke wortelkanaalopening;€ 30,86
+E53;Verwijderen van wortelstift;€ 43,21
+E54;Verwijderen van wortelkanaalvulmateriaal;€ 30,86
+E55;Behandeling dichtgeslibd of verkalkt wortelkanaal;€ 30,86
+E56*;Voortgezette behandeling bij weefselschade van de tandwortel;€ 43,21
+E57;Behandeling van element met uitzonderlijke anatomie;€ 30,86
+E60*;Geheel of gedeeltelijk weghalen van pulpaweefsel;€ 49,38
+E61;Behandelen van open wortelpunt met calciumhydroxide, eerste zitting;€ 86,41
+E62;Behandelen van open wortelpunt met calciumhydroxide, elke volgende zitting;€ 55,55
+E63*;Toeslag voor afsluiting met Mineral Trioxide Aggregate (MTA) of een vergelijkbaar biokeramisch materiaal;€ 46,29
+E64;Afsluiting van open wortelpunt;€ 49,38
+E66;Wortelkanaalbehandeling van melkelement;€ 49,38
+E77;Initiële wortelkanaalbehandeling, eerste kanaal;€ 61,72
+E78;Initiële wortelkanaalbehandeling, elk volgend kanaal;€ 30,86
+E85;Elektronische lengtebepaling;€ 15,43
+E86;Gebruik operatiemicroscoop bij wortelkanaalbehandeling;€ 83,33
+E87;Gebruiksklaar maken van praktijkruimte voor wortelkanaalbehandeling;€ 61,72
+E88;Opvullen van de pulpakamer en afsluiten van de kanaalingangen;€ 61,72
+E90;Inwendig bleken, eerste zitting;€ 49,38
+E95;Inwendig bleken, elke volgende zitting;€ 18,52
+E97*;Uitwendig bleken per kaak;€ 77,15
+;;
+Consultatie en diagnostiek (F);;
+Code;Prestaties;Tarief
+F121;Eerste consult;€ 23,45
+F122;Herhaalconsult;€ 23,45
+F123;Controlebezoek;€ 14,65
+F124;Second opinion;€ 111,10
+F125*;Maken gebitsmodellen;€ 17,93
+F126;Beoordelen gebitsmodellen inclusief bespreken behandelplan;€ 64,74
+;;
+Behandelingen kauwstelsel (G);;
+Code;Prestaties;Tarief
+G09;Occlusie analyse na meting m.b.v. digitale apparatuur;€ 33,33
+G10;Niet-standaard beetregistratie;€ 92,59
+G11;Scharnierasbepaling;€ 92,59
+G12;Centrale relatiebepaling;€ 86,41
+G13;Protrale/laterale bepalingen;€ 61,72
+G14;Instellen volledig instelbare articulator, pantograaf en registratie;€ 555,51
+G15;Toeslag voor het behouden van beethoogte;€ 30,86
+G16;Therapeutische positiebepaling;€ 30,86
+G20;Beetregistratie intra-oraal;€ 61,72
+G21;Functieonderzoek kauwstelsel;€ 111,10
+G22;Verlengd onderzoek OPD;€ 222,20
+G23;Spieractiviteitsmeting en registratie;€ 98,76
+G33*;Aanbrengen front/hoektandgeleiding;€ 61,72
+G41;Consult OPD-therapie A (niet-complex);€ 64,81
+G43;Consult OPD-therapie B (complex);€ 124,68
+G44*;Therapeutische injectie;€ 67,90
+G46*;Consult voor instructie apparatuur (eenmalig);€ 49,38
+G47;Evaluatie/herbeoordeling na OPD therapie A;€ 74,07
+G48;Evaluatie/herbeoordeling na OPD therapie B;€ 123,45
+G62*;Stabilisatieopbeetplaat;€ 166,65
+G65*;Indirect planmatig inslijpen;€ 339,48
+G68*;Reparatie stabilisatieopbeetplaat met afdruk;€ 49,38
+G69*;Beetbeschermingsplaat;€ 67,90
+G71*;Apparaat voor snurk- en slaapstoornissen (MRA);€ 308,62
+G72;Controlebezoek MRA;€ 30,86
+G73*;Reparatie MRA met afdruk;€ 49,38
+G74 *;Therapie met behulp van myofunctionele apparatuur;€ 130,24
+G75;Planmatig beslijpen van alle voortanden, per boven- of onderkaak;€ 61,72
+;;
+Chirurgische ingrepen (inclusief verdoving) (H);;
+Code;Prestaties;Tarief
+H11;Trekken tand of kies;€ 46,29
+H16;Trekken volgende tand of kies, in dezelfde zitting en hetzelfde kwadrant;€ 34,57
+H21;Kosten hechtmateriaal;€ 6,29
+H26;Hechten weke delen;€ 67,90
+H33;Hemisectie van een molaar;€ 74,07
+H35;Moeizaam trekken tand of kies, met mucoperiostale opklap;€ 74,07
+H40;Corrigeren van de vorm van de kaak, per kaak;€ 55,55
+H41;Verwijderen van het lipbandje of tongriempje;€ 37,03
+H42;Wortelpuntoperatie, per tandwortel, zonder afsluiting;€ 74,07
+H43;Wortelpuntoperatie, per tandwortel, met ante of retrogradeafsluiting;€ 98,76
+H44;Primaire antrumsluiting;€ 67,90
+H50;Terugzetten/ terugplaatsen tand of kies, eerste element exclusief wortelkanaalbehandeling;€ 61,72
+H55;Terugzetten/ terugplaatsen tand of kies, buurelement, exclusief wortelkanaalbehandeling;€ 18,52
+H59;Behandeling kaakbreuk, per kaak;€ 86,41
+H60;Marsupialisatie;€ 86,41
+H65;Primaire sluiting;€ 166,65
+H70;Lappige fibromen, Schlotterkamm, tubercorrectie e.d., enkelzijdig per kaak;€ 86,41
+H75;Lappige fibromen, Schlotterkamm, tubercorrectie e.d., dubbelzijdig per kaak;€ 166,65
+H80;Alveolotomie torus, vergelijkbare praeprothetische botcorrecties, enkelzijdig per kaak;€ 117,27
+H85;Alveolotomie torus, vergelijkbare praeprothetische botcorrecties, dubbelzijdig per kaak;€ 197,51
+H90;Voorbereiding praktijkruimte ten behoeve van chirurgische verrichtingen vallend onder onderdeel B;€ 61,72
+;;
+Implantaten (J);;
+Code;Prestaties;Tarief
+J01;Initieel onderzoek implantologie;€ 68,48
+J02*;Verlengd onderzoek implantologie;€ 105,35
+J03*;Proefopstelling;€ 142,22
+J05;Implantaatpositionering op grond van CT-scan;€ 47,41
+J06;Vrijleggen foramen mentale;€ 31,61
+J07;Toeslag kosten boren voor eenmalig gebruik of toeslag kosten inzetstukken van een Implant Removal Set voor eenmalig gebruik;€kostprijs
+J08*;Aanbrengen botvervangers in extractie wond;€ 21,07
+J09*;Ophoging bodem bijholte, eerste kaakhelft;€ 252,84
+J10*;Ophoging bodem bijholte, tweede kaakhelft in dezelfde zitting;€ 158,03
+J11;Prepareren donorplaats;€ 142,22
+J12*;Kaakverbreding en/of verhoging, per kaak;€ 152,76
+J15*;Kaakverbreding en/of verhoging, per sextant;€ 89,55
+J17*;Aanvullende ophoging bodem bijholte;€ 136,96
+J18*;Ophoging bodem bijholte orthograad;€ 63,21
+J19;Toeslag esthetische zone;€ 68,48
+J20;Plaatsen eerste implantaat, per kaak;€ 240,73
+J23*;Plaatsen eerste tandvleesvormer (healing abutment);€ 79,01
+J26;Moeizaam verwijderen implantaat;€ 173,83
+J27;Vervangen eerste implantaat;€ 240,73
+J28;Plaatsen volgend implantaat, per kaak;€ 99,56
+J29*;Plaatsen volgende tandvleesvormer (healing abutment);€ 37,40
+J30;Bindweefseltransplantaat per donorplaats;€ 110,62
+J32*;Verwijderen gefractureerd abutment/occlusale schroef;€ 121,15
+J33;Kosten implantaat;€ 338,74
+J34;Bepaling stabiliteit implantaat middels ISQ-meting;€ 10,54
+J35;Grondig submucosaal reinigen implantaat;€ 24,76
+J36;Verwijderen implantaat;€ 34,77
+J37;Vervangen volgend implantaat;€ 99,56
+J39;Uitvoeren autotransplantaat;€ 183,84
+J41*;Plaatsen elke volgende drukknop;€ 36,87
+J42*;Staaf tussen twee implantaten in dezelfde kaak;€ 215,97
+J43*;Elke volgende staaf tussen implantaten in dezelfde kaak;€ 68,48
+J44*;Plaatsen opbouw ten behoeve van implantaatkroon;€ 26,34
+J45*;Plaatsen eerste drukknop;€ 126,42
+J50*;Gelijktijdig plaatsen volledig kunstgebit en klikgebit;€ 542,55
+J51*;Onder klikgebit;€ 352,92
+J52*;Boven klikgebit;€ 352,92
+J53*;Omvorming klikgebit;€ 105,35
+J54*;Omvorming klikgebit bij staven tussen twee implantaten;€ 136,96
+J55*;Omvorming klikgebit bij staven tussen drie of vier implantaten;€ 158,03
+J56*;Omvorming klikgebit bij staven tussen meer dan vier implantaten;€ 184,36
+J57;Toeslag vervangingsklikgebit op bestaande stegconstructie tussen twee implantaten;€ 89,55
+J58;Toeslag vervangingsklikgebit op bestaande stegconstructie tussen drie of vier implantaten;€ 115,89
+J59;Toeslag vervangingsklikgebit op bestaande stegconstructie tussen meer dan vier implantaten;€ 142,22
+J60;Specifiek consult nazorg implantologie;€ 57,94
+J61;Uitgebreid consult nazorg implantologie;€ 94,82
+J70*;Opvullen zonder staafdemontage;€ 147,49
+J71*;Opvullen met staafdemontage op twee implantaten;€ 184,36
+J72*;Opvullen met staafdemontage op drie of vier implantaten;€ 210,70
+J73*;Opvullen met staafdemontage op meer dan vier implantaten;€ 237,04
+J74*;Reparatie zonder staafdemontage;€ 57,94
+J75*;Reparatie met staafdemontage op twee implantaten;€ 110,62
+J76*;Reparatie met staafdemontage op drie of vier implantaten;€ 136,96
+J77*;Reparatie met staafdemontage op meer dan vier implantaten;€ 163,29
+J78*;Verwijderen en vervangen drukknop;€ 26,34
+J80;Twee implantaten in de onderkaak voor een implantaatgedragen kunstgebit;€ 536,23
+J81;Verkrijgen en verwerken van bloed tot een regeneratief biomateriaal middels een venapunctie;€ 118,52
+J87*;Tijdelijke kroon in dezelfde zitting op immediaat geplaatst implantaat;€ 273,91
+J88;Chirurgische behandeling peri-implantitis, per sextant (één zesde deel);€ 183,84
+J97;Overheadkosten implantaten, autotransplantaten en peri-implantitis chirurgie;€ 182,78
+J98;Overheadkosten pre-implantologische chirurgie;€ 103,44
+;;
+Preventieve mondzorg (M);;
+Code;Prestaties;Tarief
+M01;Preventieve voorlichting en/of instructie, per vijf minuten;€ 13,84
+M02;Consult voor evaluatie van preventie, per vijf minuten;€ 13,84
+M03;Gebitsreiniging, per vijf minuten;€ 13,84
+M05;Niet-restauratieve behandeling van cariës in het melkgebit;€ 27,78
+M30;Behandeling van gevoelige tandhalzen en (preventief) toedienen medicament;€ 6,17
+M32 */**;Eenvoudig bacteriologisch- of enzymatisch onderzoek;€ 18,52
+M40;Fluoridebehandeling;€ 15,43
+M61*;Mondbeschermer;€ 27,78
+M80*;Behandeling van witte vlekken, eerste element;€ 53,70
+M81*;Behandeling van witte vlekken, volgend element;€ 29,63
+;;
+Kunstgebitten (P);;
+Code;Prestaties;Tarief
+P001*;Gedeeltelijk kunstgebit van kunsthars, 1-4 elementen, per kaak;€ 92,59
+P002*;Gedeeltelijk kunstgebit van kunsthars, 5-13 elementen, per kaak;€ 185,17
+P003*;Frame kunstgebit, 1-4 elementen, per kaak;€ 253,07
+P004*;Frame kunstgebit, 5-13 elementen, per kaak;€ 345,65
+P020*;Volledig kunstgebit bovenkaak;€ 185,17
+P021*;Volledig kunstgebit onderkaak;€ 246,89
+P022*;Volledig kunstgebit boven- en onderkaak;€ 401,20
+P023*;Tijdelijk volledig kunstgebit, per kaak;€ 123,45
+P040;Toeslag voor individuele afdruk bij volledig kunstgebit;€ 66,66
+P041;Toeslag voor individuele afdruk bij gedeeltelijk kunstgebit van kunsthars;€ 30,86
+P042;Toeslag voor beetregistratie met specifieke apparatuur;€ 61,72
+P043;Toeslag voor frontopstelling of beetbepaling in aparte zitting;€ 37,03
+P044;Toeslag zeer ernstig geslonken kaak, per kaak;€ 83,33
+P045;Toeslag immediaat kunstgebit;€ 15,43
+P046;Toeslag voor elk element bij een overkappingskunstgebit;€ 49,38
+P047;Toeslag voor gegoten anker bij gedeeltelijk kunstgebit van kunsthars;€ 18,52
+P048;Toeslag voor maken precisiekoppeling, per koppeling of staafhuls;€ 92,59
+P049;Toeslag voor aanbrengen telescoopkroon met precisiekoppeling;€ 61,72
+P060;Tissue conditioning volledig kunstgebit, per kaak;€ 43,21
+P061;Tissue conditioning gedeeltelijk kunstgebit van kunsthars of framekunstgebit, per kaak;€ 43,21
+P062*;Opvullen volledig kunstgebit, indirect, per kaak;€ 87,03
+P063*;Opvullen volledig kunstgebit, direct, per kaak;€ 87,65
+P064*;Opvullen gedeeltelijk kunstgebit van kunsthars of framekunstgebit, indirect, per kaak;€ 75,92
+P065*;Opvullen gedeeltelijk kunstgebit van kunsthars of framekunstgebit, direct, per kaak;€ 79,01
+P066*;Opvullen overkappingskunstgebit op natuurlijke pijlers zonder staafdemontage, per kaak;€ 172,83
+P067;Planmatig inslijpen bestaand kunstgebit;€ 30,86
+P068*;Reparatie volledig kunstgebit, zonder afdruk, per kaak;€ 18,52
+P069*;Reparatie volledig kunstgebit, met afdruk, per kaak;€ 49,38
+P070*;Reparatie gedeeltelijk kunstgebit van kunsthars of framekunstgebit, zonder afdruk, per kaak;€ 18,52
+P071*;Reparatie en/of uitbreiding gedeeltelijk kunstgebit van kunsthars of framekunstgebit, met afdruk, per kaak;€ 49,38
+P072*;Uitbreiding gedeeltelijk kunstgebit van kunsthars of frame kunstgebit met element(en) tot volledig kunstgebit, met afdruk, per kaak;€ 49,38
+;;
+Kronen en bruggen (R);;
+Code;Prestaties;Tarief
+R08*;Eénvlaks composiet inlay;€ 74,07
+R09*;Tweevlaks composiet inlay;€ 141,96
+R10*;Drievlaks composiet inlay;€ 185,17
+R11*;Eénvlaksinlay;€ 111,10
+R12*;Tweevlaksinlay;€ 172,83
+R13*;Drievlaksinlay;€ 246,89
+R14;Toeslag voor extra retentie bij het plaatsen van indirecte restauraties;€ 30,86
+R24*;Kroon op natuurlijk element;€ 271,58
+R34*;Kroon op implantaat;€ 246,89
+R29*;Confectiekroon;€ 55,55
+R31;Opbouw plastisch materiaal;€ 61,72
+R32*;Gegoten opbouw, indirecte methode;€ 61,72
+R33*;Gegoten opbouw, directe methode;€ 123,45
+R40*;Eerste brugtussendeel;€ 185,17
+R45*;Toeslag bij een conventionele brug voor elk volgende brugtussendeel in hetzelfde tussendeel;€ 92,59
+R49;Toeslag voor brug op vijf- of meer pijlerelementen;€ 154,31
+R50*;Metalen fixatiekap met afdruk;€ 30,86
+R55*;Gipsslot met extra afdruk;€ 30,86
+R60*;Plakbrug zonder preparatie;€ 123,45
+R61*;Plakbrug met preparatie;€ 185,17
+R65;Toeslag bij een plakbrug voor elk volgende brugtussendeel in hetzelfde tussendeel;€ 43,21
+R66;Toeslag bij een plakbrug voor elke volgende bevestiging boven het aantal van twee;€ 24,69
+R70;Toeslag voor kroon onder bestaand frame-anker;€ 67,90
+R71*;Vernieuwen porseleinen schildje, reparatie metalen/porseleinen kroon in de mond;€ 67,90
+R74*;Opnieuw vastzetten niet plastische restauraties;€ 24,69
+R75*;Opnieuw vastzetten plakbrug;€ 61,72
+R76;Toeslag voor gegoten opbouw onder bestaande kroon;€ 30,86
+R77;Moeizaam verwijderen van oud kroon- en brugwerk per (pijler)element;€ 30,86
+R91*;Wortelkap met stift;€ 154,31
+R78*;Schildje van keramiek of kunststof, zonder preparatie;€ 74,07
+R79*;Schildje van keramiek of kunststof, met preparatie;€ 123,45
+R80*;Tijdelijk kroon- en brugwerk, eerste tand of kies;€ 30,86
+R85*;Tijdelijk kroon- en brugwerk, volgende tand of kies;€ 12,34
+R90*;Gedeeltelijk voltooid werk;***
+;;
+Tandvleesbehandelingen (T);;
+Code;Prestaties;Tarief
+T012;Onderzoek van het tandvlees met parodontiumstatus;€ 179,00
+T021;Grondig reinigen wortel, complex;€ 33,33
+T022;Grondig reinigen wortel, standaard;€ 24,69
+T032;Evaluatie initiële behandeling/chirurgie of herbeoordeling met parodontiumstatus;€ 111,10
+T033;Bespreken vervolgtraject na evaluatie of herbeoordeling;€ 67,90
+T042;Consult parodontale nazorg;€ 93,82
+T043;Uitgebreid consult parodontale nazorg;€ 124,68
+T044;Complex consult parodontale nazorg;€ 166,04
+T070;Flapoperatie tussen twee elementen;€ 200,60
+T071;Flapoperatie per sextant (één zesde deel);€ 308,62
+T072;Flapoperatie uitgebreid per sextant ( één zesde deel);€ 370,34
+T073;Directe postoperatieve zorg, eerste zitting;€ 61,72
+T074;Directe postoperatieve zorg, volgende zitting;€ 166,04
+T076;Tuber- of retromolaarplastiek;€ 77,15
+T101;Tuber- of retromolaarplastiek;€ 108,02
+T102;Tandvleescorrectie, per element;€ 58,64
+T103;Tandvleescorrectie, per sextant (één zesde deel);€ 154,31
+T111*;Aanbrengen parodontaal regeneratiemateriaal voor botherstel als zelfstandige verrichting, per sextant (één zesde deel);€ 370,34
+T112*;Aanbrengen parodontaal regeneratiemateriaal voor botherstel als niet-zelfstandige verrichting, gelijktijdig met flapoperatie in hetzelfde sextant (één zesde deel), per element;€ 123,45
+T113;Operatieve verwijdering van regeneratiemateriaal;€ 200,60
+T121;Kroonverlenging per element;€ 200,60
+T122;Kroonverlenging per sextant;€ 370,34
+T141;Tandvleestransplantaat;€ 117,27
+T142*;Recessie bedekking met verplaatste lap;€ 370,34
+T151;Directe postoperatieve zorg, eerste zitting;€ 61,72
+T152;Directe postoperatieve zorg, volgende zitting;€ 166,04
+T161 **;Bacteriologisch onderzoek ten behoeve van tandvleesbehandeling;€ 43,21
+T162;Behandeling tandvleesabces;€ 83,33
+T163*;Toepassing lokaal medicament;€ 66,66
+T164*;(Draad)Spalk;€ 24,69
+T165;Uitgebreide voedingsanalyse;€ 61,72
+;;
+Uurtarieven (U) ten behoeve van de bijzondere tandheelkunde en de Wlz;;
+Code;Prestaties;Tarief
+U05*;Tijdtarief begeleiding moeilijk behandelbare patiënten in eenheden van vijf minuten;€ 16,22
+U25*;Tijdtarief tandheelkundige hulp aan patiënten die behandeld worden in Wlz-instelling in eenheden van vijf minuten;€ 14,06
+U35*;Tijdtarief tandheelkundige hulp aan patiënten die verblijven in de Wlz-instelling en behandeld worden in de eigen praktijk van de zorgaanbieder in eenheden van vijf minuten;€ 16,22
+;;
+Vullingen (V);;
+Code;Prestaties;Tarief
+V71;Eénvlaksvulling amalgaam;€ 25,92
+V72;Tweevlaksvulling amalgaam;€ 41,35
+V73;Drievlaksvulling amalgaam;€ 53,70
+V74;Meervlaksvulling amalgaam;€ 75,30
+V81;Eénvlaksvulling glasionomeer/glascarbomeer/compomeer;€ 38,27
+V82;Tweevlaksvulling glasionomeer/glascarbomeer/compomeer;€ 53,70
+V83;Drievlaksvulling glasionomeer/glascarbomeer/compomeer;€ 66,04
+V84;Meervlaksvulling glasionomeer/glascarbomeer/ compomeer;€ 87,65
+V91;Eénvlaksvulling composiet;€ 49,38
+V92;Tweevlaksvulling composiet;€ 64,81
+V93;Drievlaksvulling composiet;€ 77,15
+V94;Meervlaksvulling composiet;€ 98,76
+V15;Aanbrengen schildje van tandkleurig plastisch materiaal (facing);€ 74,07
+V30;Fissuurlak eerste element (sealen);€ 27,78
+V35;Fissuurlak ieder volgend element in dezelfde zitting (sealen);€ 15,43
+V40;Het polijsten, beslijpen en bijwerken van oude vullingen;€ 6,17
+V50;Droogleggen van elementen door middel van een rubberen lapje;€ 12,34
+V70*;Parapulpaire stift;€ 12,34
+V80*;Wortelkanaalstift;€ 21,60
+V85*;Elke volgende wortelkanaalstift in hetzelfde element;€ 9,26
+;;
+Maken en/of beoordelen foto's (X);;
+Code;Prestaties;Tarief
+X10;Maken en beoordelen kleine röntgenfoto;€ 17,28
+X11;Beoordelen kleine röntgenfoto;€ 12,96
+X21;Maken en beoordelen kaakoverzichtsfoto;€ 74,07
+X22;Maken en beoordelen kaakoverzichtsfoto t.b.v. implantologie in de tandeloze kaak;€ 74,07
+X23;Beoordelen kaakoverzichtsfoto;€ 27,16
+X24;Maken en beoordelen schedelfoto;€ 33,33
+X25;Maken en beoordelen meerdimensionale kaakfoto;€ 209,86
+X26;Beoordelen meerdimensionale kaakfoto;€ 61,72
+X34;Beoordelen schedelfoto;€ 24,69
+;;
+Informatieverstrekking en onderlinge dienstverlening (Y);;
+Code;Prestaties;Tarief
+Y01;Informatieverstrekking aan derden, per vijf minuten;€ 14,06
+Y02;Onderlinge dienstverlening;€Maximum
