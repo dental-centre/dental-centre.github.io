@@ -217,7 +217,102 @@
 
             </div>
         </section>
+        <section class="content main-text" style="padding-bottom: 0;">
+            <div class="container form">
+                <div class="form-overlay">
+                    <div class="message-container">
+                        <div class="success">
+                            <div>Form submitted successfully!</div>
+                            <div class="button" onclick="resetForm()">Submit another form</div>
+                        </div>
+                        <div class="failure">
+                            <div>Form submission failed!</div>
+                            <div>
+                                <div class="button" onclick="closeFormOverlay()">Try again</div>
+                            </div>
+                        </div>
+                        <div class="loading">
+                            <div class="lds-ring">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="row vertical-center-row">
+                    <div class="twelve columns small-text">
+                        <h2>Register as a new patient</h2>
+                        <p class="justify">For registration as a new patient, please complete the form below. The fields
+                            with a * are mandatory.</p>
+                        <form id="register-form">
+                            <div class="form-container">
+                                <div class="input-container">
+                                    <label for="firstname">First name*:</label>
+                                    <input type="text" class="form-input" name="firstname" required>
+                                </div>
+                                <div class="input-container">
+                                    <label for="lastname">Last name*:</label>
+                                    <input type="text" class="form-input" name="lastname" required>
+                                </div>
+                                <div class="input-container">
+                                    <label for="gender">Gender*:</label>
+                                    <select class="form-input" name="gender" required>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="input-container">
+                                    <label for="dob">Date of birth*:</label>
+                                    <input type="date" class="form-input" name="dob" required>
+                                </div>
+                                <div class="input-container">
+                                    <label for="BSN">BSN:</label>
+                                    <input type="text" class="form-input" name="BSN">
+                                </div>
+                                <div class="input-container">
+                                    <label for="postcode">Post Code*:</label>
+                                    <input type="text" class="form-input" name="postcode" required>
+                                </div>                                
+                                <div class="input-container">
+                                    <label for="street">Street name + House No.*:</label>
+                                    <input type="text" class="form-input" name="street" required>
+                                </div>
+                                <div class="input-container">
+                                    <label for="email">E-Mail*:</label>
+                                    <input type="text" class="form-input" name="email" required>
+                                </div>                                
+                                <div class="input-container">
+                                    <label for="mobile">Telephone*:</label>
+                                    <input type="text" class="form-input" name="mobile" required>
+                                </div>
+                                <div class="input-container">
+                                    <label for="comments">Remarks:</label>
+                                    <input type="text" class="form-input" name="comments">
+                                </div>
+                                <p class="justify">After receiving your information we will call you within two working
+                                    days
+                                    to make an appointment. Your data will be treated confidentially. Our practice
+                                    complies
+                                    with the General Data Protection Regulation. Registration is also possible by
+                                    telephone
+                                    or by visiting our practice.</p>
+                                <p id="fill-required-fields">
+                                    Please fill in the required fields!
+                                </p>
+                                <div class="button squared-button inverted-button" id="submit">Submit</div>
+                                <div class="button squared-button" id="reset" onclick="$('#register-form')[0].reset()">
+                                    Clear</div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="content main-text">
             <div class="container">
                 <div class="row vertical-center-row">
