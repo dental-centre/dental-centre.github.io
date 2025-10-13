@@ -274,7 +274,7 @@ R92;Passen restauratieve proefopstelling in de mond;€ 102,42
 R79*;Indirecte facing;€ 333,80
 R80*;Tijdelijk kroon- en brugwerk, eerste tand of kies;€ 37,93
 R85*;Tijdelijk kroon- en brugwerk, volgende tand of kies;€ 15,17
-R90*;Gedeeltelijk voltooid werk;€Naar gelang het stadium waarin de tandheel-kundige werkzaamheden verkeren
+R90*;Gedeeltelijk voltooid werk;€***
 ;;
 Tandvleesbehandelingen (T);;
 T012;Onderzoek van het tandvlees met parodontiumstatus;€ 220,01
@@ -350,3 +350,4 @@ X26;Beoordelen meerdimensionale kaakfoto;€ 75,86
 Informatieverstrekking en onderlinge dienstverlening (Y);;
 Y01;Informatieverstrekking aan derden, per vijf minuten;€ 17,28
 Y02;Onderlinge dienstverlening;€Maximum
+
