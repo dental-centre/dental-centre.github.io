@@ -1,0 +1,367 @@
+﻿Anesthesia (A);;
+Code;Description;Tariff
+A10;Conduction, infiltration and/or intraligamentous anaesthesia;€ 18,97
+A15;Surface anesthesia;€ 9,86
+A20;Treatment under general anesthesia or sedation;€cost price
+A30;Preparation of treatment under general anesthesia;€ 60,69
+;;
+Anesthesia by means of sedation (B);;
+Code;Description;Tariff
+B10;Introduction to sedation (nitrous oxide sedation);€ 37,93
+B11;Administration of sedation (nitrous oxide sedation);€ 37,93
+B12;Overhead costs of sedation (nitrous oxide sedation);€ 45,86
+;;
+Consultation and Diagnostics (C);;
+Code;Description;Tariff
+C001;Consultation for an intake, including determining and discussing the care goal;€ 57,66
+C002;Consultation for a periodic check-up;€ 28,83
+C003;Consultation, not being periodic check-up;€ 28,83
+C010;Additional medical history after (written) routine questions;€ 28,83
+C011;Extensive research for a second opinion;€ 136,56
+C012;Extensive research for the purpose of the integrated treatment plan;€ 136,56
+C013*;The study model;€ 37,93
+C014;Pocket registration;€ 45,52
+C015;Periodontium registration;€ 91,04
+C016*;Making and discussing a restorative test set-up;€ 227,59
+C020;Allowance for oral care at home;€ 22,76
+C021;Surcharge evening, night and weekend hours (surviving hours);€ 31,86
+C022;Draining of elements by means of a rubber patch;€ 15,17
+C023;Surcharge for specific oral care at home;€ 98,62
+;;
+Root canal treatments (E);;
+Code;Description;Tariff
+E02;Extensive root canal treatment consultation at CEB II or III;€ 53,11
+E03;Assessing trauma after dental accident;€ 41,73
+E05;Research for the purpose of performing a complex endodontic treatment of a referred patient;€ 101,66
+E60*;Removal of pulp tissue in whole or in part;€ 60,69
+E04;Surcharge for charges when using rotating nickel-titanium instruments;€ 59,92
+E13;Root canal treatment per element with 1 canal;€ 136,56
+E14;Root canal treatment per element with 2 canals;€ 197,25
+E16;Root canal treatment per element with 3 canals;€ 257,94
+E17;Root canal treatment per element with 4 or more canals;€ 318,63
+E85;Electronic length determination;€ 18,97
+E19;Temporary closure of an element after the start of root canal treatment;€ 22,76
+E66;Root canal treatment of milk element;€ 60,69
+E52;Supplement in case of a difficult root canal opening;€ 37,93
+E53;Surcharge removal of root pin;€ 53,11
+E54;Supplement removal of root canal filling material;€ 37,93
+E55;Supplement treatment of clogged or calcified root canal;€ 37,93
+E56*;Supplement for continued treatment for tissue damage to the tooth root;€ 53,11
+E57*;Supplement treatment of element with exceptional anatomy;€ 37,93
+E61;Treating open root tip with a disinfectant, first session;€ 106,21
+E62;Treating the open root tip with a disinfectant, every subsequent session;€ 68,28
+E63*;Surcharge for sealing with calcium silicate cement or a similar bioceramic material;€ 56,90
+E77;Initial root canal treatment, first canal;€ 75,86
+E78;Initial root canal treatment, each subsequent canal;€ 37,93
+E90;Internal whitening, first session;€ 60,69
+E95;Internal whitening, each subsequent session;€ 22,76
+E97*;External whitening per jaw;€ 94,83
+E40*;Direct pulp capping;€ 37,93
+E42;Restoring a displaced element after a dental accident;€ 15,17
+E43*;Securing the element by means of a splint after a dental accident;€ 30,35
+E44;Removing splint for the treatment of a trauma element;€ 7,59
+E31;Microsurgical root canal treatment incisor/canine;€ 151,73
+E32;Microsurgical root canal treatment premolar;€ 212,42
+E33;Microsurgical root canal treatment molar;€ 273,11
+E34*;Retrograde filling;€ 30,35
+E36*;Pulling and replacing an element;€ 106,21
+E37;Keyhole surgery;€ 91,04
+E88;Filling the pulp chamber and closing the duct entrances;€ 75,86
+E86;Use of operating microscope in root canal treatment;€ 102,42
+E87;Preparation of practice space for microsurgical root canal treatment;€ 75,86
+;;
+Treatment of the masticatory system (G);;
+Code;Description;Tariff
+G21;Functional study of the masticatory system;€ 136,56
+G22;Extended investigation OPD;€ 273,11
+G23;Muscle activity measurement and registration;€ 121,38
+G41;OPD Therapy A Consultation (non-complex);€ 79,66
+G62*;Stabilization bite plate;€ 204,83
+G47;Evaluation/reassessment after OPD therapy A;€ 91,04
+G43;Consult OPD-therapie B (complex);€ 153,25
+G44*;Therapeutic injection;€ 83,45
+G46*;Consultation for instructional equipment (one-off);€ 60,69
+G48;Evaluation/reassessment after OPD therapy B;€ 151,73
+G10;Non-standard bite registration;€ 113,80
+G11;Hinge axis determination;€ 113,80
+G12;Central relationship determination;€ 106,21
+G13;Lateral/Lateral Determinations;€ 75,86
+G14;Fully adjustable articulator, pantograph and registration setup;€ 682,78
+G16;Therapeutic positioning;€ 37,93
+G20;Bite registration intra-oral;€ 75,86
+G09;Occlusion analysis after measurement using digital equipment;€ 40,97
+G15;Fee for maintaining bite height;€ 37,93
+G65*;Indirect systematic grinding;€ 417,25
+G75;Systematic grinding of all front teeth, per upper or lower jaw;€ 75,86
+G68*;Repair stabilizing bite plate or bite protection plate;€ 60,69
+G69*;Bite protection plate;€ 83,45
+G33*;Applying front/canine guide;€ 75,86
+G71*;Snoring and sleep disorder (MRA) device;€ 379,32
+G72;Inspection visit MRA;€ 37,93
+G73*;Repair MRA with imprint;€ 60,69
+G74*;Placement of myofunctional equipment;€ 102,42
+G76*;Myofunctional therapy consultation;€ 28,83
+;;
+Surgical procedures (including anesthesia) (H);;
+Code;Description;Tariff
+H11;Extraction of tooth or molar;€ 56,90
+H16;Extraction of the next tooth, in the same session and quadrant;€ 42,48
+H21;Costs of suture material;€ 7,58
+H26;Adheres to soft tissues;€ 83,45
+H50;Replacing the tooth, first element;€ 75,86
+H55;Replacing the tooth, next element in the same session;€ 22,76
+H90;Preparation of practice space for surgical procedures falling under part B;€ 75,86
+H33;Hemisection of a molar;€ 91,04
+H34;Exposing the enclosed tooth or molar to promote the eruption;€ 91,04
+H35;Laborious tooth extraction with the help of surgery;€ 91,04
+H36;Research for the purpose of determining the indication for an autograft treatment;€ 83,45
+H37*;Research for the purpose of carrying out an autograft treatment.;€ 128,97
+H38*;Performing first autograft;€ 292,84
+H39;Performing the next autograft, in the same session;€ 120,62
+H40;Correcting the shape of the jaw, per jaw;€ 68,28
+H41;Removal of the lip tie or tongue-tie;€ 45,52
+H42;Root tip surgery, per tooth root, without occlusion;€ 91,04
+H43;Root tip surgery, per tooth root, with antegrade or retrograde occlusion;€ 121,38
+H44;Primary antrum closure;€ 83,45
+H59;Treatment of jaw fracture, per jaw;€ 106,21
+H60;Marsupialization;€ 106,21
+H65;Primary closure;€ 204,83
+H70;Lumpy fibroids, Schlotterkamm, tuber correction, etc., single-sided per jaw;€ 106,21
+H75;Flapping fibroids, Schlotterkamm, tuber correction, etc., double-sided per jaw;€ 204,83
+H80;Alveolotomy torus, similar praeprosthetic bone corrections, single-sided per jaw;€ 144,14
+H85;Alveolotomy torus, similar praeprosthetic bone corrections, double-sided per jaw;€ 242,77
+;;
+Implants (J);;
+Code;Description;Tariff
+J001;Overhead cost implants, autografts en peri-implantitis surgery;€ 220,32
+J002;Overhead costs pre-implant surgery;€ 124,69
+J010;Research for the purpose of the indication for the implantological treatment;€ 83,23
+J011*;Research for the purpose of carrying out the implantological treatment;€ 128,04
+J012*;Test set-up implantology, 1-4 elements;€ 96,03
+J013*;Test set-up implantology 5 or more elements;€ 192,07
+J014;Implant positioning based on CT scan;€ 57,62
+J020*;Elevation of the bottom of the sinus in a separate session prior to implantation, first half of the jaw,;€ 307,30
+J021*;Raising the bottom of the sinus in a separate session prior to implantation, second half of the jaw within a period of three months;€ 192,07
+J022*;Jaw widening and/or elevation in a separate session prior to implantation, per jaw;€ 185,66
+J030*;Jaw widening and/or elevation, per sextant, during implantation;€ 108,84
+J031*;Elevation of the bottom of the sinus during implantation;€ 166,46
+J032*;Elevation of the bottom of the sinus orthograde, during implantation;€ 76,83
+J040;Placement of the first implant, per jaw;€ 293,22
+J041;Placing the next implant in the same jaw;€ 121
+J042*;Placing the first gum former;€ 96,03
+J043*;Placing the next gum former;€ 45,46
+J044;Implant removal;€ 42,25
+J045;Difficult implant removal;€ 211,27
+J046;Replacing the first implant;€ 292,58
+J047;Replacement of the next implant;€ 121
+J048;Surgical treatment of peri-implantitis, per sextant;€ 223,44
+J049;Placement of two implants in the edentulous lower jaw for snap-on dentures;€ 652,38
+J050;Surcharge for the cost of single-use drilling and/or inserts of a single-use Implant Removal Kit;€cost price
+J051*;Applying bone substitutes in the extraction wound;€ 25,61
+J052;Preparing donor site;€ 172,86
+J053;Surcharge aesthetic zone, per jaw half;€ 86,43
+J054;Connective tissue graft per donor site;€ 134,45
+J055;Obtaining and processing blood into a regenerative biomaterial by venipuncture;€ 144,05
+J056*;Removing fractured abutment/occlusal screw;€ 147,25
+J057;Implant costs;€ 404,40
+J058;Determination of implant stability by ISQ measurement;€ 12,80
+J059;Thorough submucosal cleaning of the implant;€ 30,09
+J060*;Temporary crown in the same seat on immediately placed implant;€ 332,91
+J070*;Placing the first push button;€ 153,65
+J071*;Placing each subsequent push button;€ 44,82
+J072*;Rod between two implants in the same jaw;€ 262,49
+J073*;Each subsequent rod between implants in the same jaw;€ 83,23
+J080*;Simultaneous placement of full dentures and snap-on dentures;€ 659,42
+J081*;Click dentures in the lower jaw;€ 428,95
+J082*;Click dentures in the upper jaw;€ 428,95
+J083*;Conversion to snap-on dentures;€ 128,04
+J084*;Conversion to snap-on dentures for rods between two implants;€ 166,46
+J085*;Conversion to snap-on dentures for rods between three or four implants;€ 192,07
+J086*;Conversion to snap-on dentures for rods between more than four implants;€ 224,08
+J087;Surcharge for replacement snap-on dentures on existing rods between two implants;€ 108,84
+J088;Surcharge for replacement snap-on dentures on existing rods between three or four implants;€ 140,85
+J089;Surcharge for replacement click dentures on existing rods between more than four implants;€ 172,86
+J180*;Partial snap-on dentures made of plastic;€ 227,59
+J181*;Partial snap-on dentures with metal base (frame);€ 424,84
+J183*;Conversion of partial dentures or frame to partial snap-on dentures;€ 128,04
+J184*;Extension of partial snap-on dentures to (full) snap-on dentures, with impression, per jaw;€ 60,69
+J090;Specific consultation aftercare implantology;€ 70,42
+J091;Extensive consultation after care implantology;€ 115,24
+J100*;Filling click dentures without rod disassembly;€ 179,26
+J101*;Filling snap-on dentures with rod disassembly on two implants;€ 224,08
+J102*;Filling snap-on dentures with rod disassembly on three or four implants;€ 256,09
+J103*;Filling snap-on dentures with rod disassembly on more than four implants;€ 288,10
+J104*;Easy repair of snap-on dentures without rod disassembly and without impression;€ 22,76
+J105*;Repair snap-on dentures without rod disassembly;€ 70,42
+J106*;Repair snap-on dentures with rod disassembly on two implants;€ 134,45
+J107*;Repair snap-on dentures with rod disassembly on three or four implants;€ 166,46
+J108*;Repair snap-on dentures with rod disassembly on more than four implants;€ 198,47
+J109*;Removing and replacing push button;€ 32,01
+J110*;Partial snap-on denture filling;€ 179,26
+J111*;Easy repair of partial snap-on dentures without impression;€ 22,76
+J112*;Repair of partial click dentures;€ 70,42
+;;
+Preventive oral care (M);;
+Code;Description;Tariff
+M01;Preventive information and/or instruction, per five minutes;€ 17,01
+M02;Consultation for evaluation of prevention, every five minutes;€ 17,01
+M03;Dental cleaning, every five minutes;€ 17,01
+M05;Non-restorative treatment of caries in the milk teeth;€ 34,14
+M32*;Simple bacteriological or enzymatic research;€ 22,76
+M30;Treatment of sensitive tooth necks and (preventive) administration of medication;€ 7,59
+M40;Fluoride treatment;€ 18,97
+M61*;Mondbeschermer of fluoridekap;€ 34,14
+M80*;Treatment of white spots, first element;€ 66
+M81*;Treatment of white spots, next element;€ 36,41
+;;
+Dentures (P);;
+Code;Description;Tariff
+P001*;Partial resin dentures, 1-4 elements, per jaw;€ 113,80
+P002*;Partial dentures made of resin, 5-13 elements, per jaw;€ 227,59
+P003*;Frame art area, 1-4 elements, per jaw;€ 311,04
+P004*;Frame kunstgebit, 5-13 elements, per jaw;€ 424,84
+P020*;Full dentures upper jaw;€ 227,59
+P021*;Full dentures lower jaw;€ 303,46
+P022*;Full dentures upper and lower jaw;€ 493,12
+P023*;Temporary full dentures, per jaw;€ 151,73
+P040;Surcharge for individual impression for full dentures;€ 81,93
+P041;Surcharge for individual impression for partial dentures made of resin;€ 37,93
+P042;Surcharge for bite registration with specific equipment;€ 75,86
+P043;Surcharge for front installation and/or bite determination in separate session;€ 45,52
+P044;Surcharge for very severely shrunken jaw, per jaw;€ 102,42
+P045;Surcharge for immediate dentures;€ 18,97
+P046;Surcharge for each element in an overdenture;€ 60,69
+P047;Surcharge for cast anchor for partial dentures made of resin;€ 22,76
+P048;Surcharge for making precision coupling, per coupling or rod sleeve;€ 113,80
+P049;Surcharge for fitting telescopic crown with precision coupling;€ 75,86
+P060;Tissue conditioning full dentures, per jaw;€ 53,11
+P061;Tissue conditioning partial dentures made of resin or frame dentures, per jaw;€ 53,11
+P062*;Filling full dentures, indirectly, per jaw;€ 106,97
+P063*;Filling full dentures, directly, per jaw;€ 107,73
+P064*;Partial resin or frame dentures filling, indirectly, per jaw;€ 93,31
+P065*;Partial denture filling made of resin or frame dentures, directly, per jaw;€ 97,11
+P066*;Filling dentures on natural pillars without rod disassembly, per jaw;€ 212,42
+P067;Systematic grinding of existing dentures;€ 37,93
+P068*;Repair of complete dentures, without impression, per jaw;€ 22,76
+P069*;Repair of complete dentures, with impression, per jaw;€ 60,69
+P070*;Repair of partial dentures made of resin or frame dentures, without impression, per jaw;€ 22,76
+P071*;Repair and/or extension of partial dentures made of resin or frame dentures, with impression, per jaw;€ 60,69
+P072*;Extension of partial dentures made of resin or frame dentures with element(s) to full dentures, with impression, per jaw;€ 60,69
+;;
+Crowns and bridges (R);;
+Code;Description;Tariff
+R08*;Single-plane composite inlay;€ 91,04
+R09*;Dihedral composite inlay;€ 174,49
+R10*;Three-hedral composite inlay;€ 227,59
+R11*;Single-plane inlay;€ 136,56
+R12*;Two-plane inlay;€ 212,42
+R13*;Tri-plane inlay;€ 303,46
+R14;Surcharge for extra retention when placing indirect restorations;€ 37,93
+R24*;Crowning the natural element;€ 333,80
+R34*;Crown on implant;€ 303,46
+R29*;Ready-to-wear crown;€ 68,28
+R31;Construction of plastic material;€ 75,86
+R32*;Cast superstructure, indirect method;€ 75,86
+R33*;Cast superstructure, direct method;€ 151,73
+R40*;First bridge intermediate section;€ 227,59
+R45*;Surcharge for a conventional bridge for each subsequent bridge intermediate section in the same intermediate section;€ 113,80
+R49;Surcharge for bridge on five or more pillar elements;€ 189,66
+R50*;Metal fixation cap with imprint;€ 37,93
+R55*;Plaster lock with extra print;€ 37,93
+R60*;Adhesive bridge without preparation;€ 151,73
+R61*;Adhesive bridge with preparation;€ 227,59
+R65;Surcharge for a slab bridge for each subsequent bridge intermediate section in the same intermediate section;€ 53,11
+R66;Surcharge for a sticky bridge for each additional attachment above the number of two;€ 30,35
+R67*;Placing the structure for the implant crown;€ 32,62
+R70;Surcharge for crown under existing frame anchor;€ 83,45
+R71*;Renewal of porcelain shield, repair of metal/porcelain crown in the mouth;€ 83,45
+R74*;Re-fixing non-plastic restorations;€ 30,35
+R75*;Re-securing adhesive bridge;€ 75,86
+R76;Surcharge for cast superstructure under existing crown;€ 37,93
+R77;Laborious removal of old crown and bridge work per (pillar) element;€ 37,93
+R91*;Root cap with pin;€ 189,66
+R92;Fitting a restorative test set-up in the mouth;€ 102,42
+R79*;Indirect facing;€ 333,80
+R80*;Temporary crown and bridge work, first tooth or molar;€ 37,93
+R85*;Temporary crown and bridge work, next tooth or molar;€ 15,17
+R90*;Partially completed work;€**
+;;
+Gum treatments (T);;
+Code;Description;Tariff
+T012;Examination of the gums with periodontium status;€ 220,01
+T021;Thoroughly clean root, complex;€ 40,97
+T022;Thorough cleaning of the carrot, standard;€ 30,35
+T032;Evaluation of initial treatment/surgery or reassessment with periodontium status;€ 136,56
+T033;Discuss follow-up process after evaluation or reassessment;€ 83,45
+T042;Consultation periodontal aftercare;€ 115,31
+T043;Extensive consultation periodontal aftercare;€ 153,25
+T044;Complex consultation periodontal aftercare;€ 204,08
+T070;Flap surgery between two elements;€ 246,56
+T071;Flap surgery per sextant (one sixth);€ 379,32
+T072;Flap surgery extended per sextant (one sixth);€ 455,19
+T073;Direct postoperative care, first session;€ 75,86
+T074;Immediate postoperative care, next session;€ 204,08
+T076;Tuber- or retromolar plasty;€ 94,83
+T101;Tuber- or retromolar plasty;€ 132,76
+T102;Gingival correction, one element;€ 72,07
+T103;Gum correction, for two to six elements;€ 189,66
+T111*;Application of periodontal regeneration material for bone repair as an independent operation, per sextant (one sixth);€ 455,19
+T112*;Application of periodontal regeneration material for bone repair as a non-independent operation, simultaneously with flap surgery in the same sextant (one sixth), per element;€ 151,73
+T113;Surgical removal of regeneration material;€ 246,56
+T121;Crown extension, single element;€ 246,56
+T122;Crown extension, with two to six elements;€ 455,19
+T141;Gum graft;€ 144,14
+T142*;Recession covering with displaced cloth;€ 455,19
+T151;Direct postoperative care, first session;€ 75,86
+T152;Immediate postoperative care, next session;€ 204,08
+T161;Bacteriological research for gum treatment;€ 53,11
+T162;Treatment of gum abscess;€ 102,42
+T163*;Application of local medicine;€ 81,93
+T164*;(Thread)Splint;€ 30,35
+T165;Comprehensive nutritional analysis;€ 75,86
+;;
+Hourly rates for special dentistry and the Wlz (Long-Term Care Act) (U);;
+Code;Description;Tariff
+U25*;Time rate for dental care to patients treated in a long-term care institution in units of five minutes;€ 17,28
+U35*;Time rate for dental care to patients who stay in the long-term care institution and are treated in the healthcare provider's own practice in units of five minutes;€ 19,93
+U05*;Time rate guidance and treatment of patients who are difficult to treat in units of five minutes;€ 19,93
+U06*;Extra time for guidance of patients who are difficult to treat in units of five minutes;€ 19,93
+;;
+Fillings (V);;
+Code;Description;Tariff
+V71;Single-surface amalgam filling;€ 31,86
+V72;Two-surface amalgam filling;€ 50,83
+V73;Three-surface amalgam filling;€ 66
+V74;Hexahedron filling amalgam;€ 96,35
+V81;Single-hedral filling glass ionomer/glass carbomer/compomer;€ 47,04
+V82;Tetrahedral filling glass ionomer/glass carbomer/compomer;€ 66
+V83;Trihedral filling glass ionomer/glass carbomer/compomer;€ 81,17
+V84;Glassionomer/glass carbomer/Compomer multi-surface filling;€ 107,73
+V91;Single-surface filling composite;€ 60,69
+V92;Tetrahedral composite filling;€ 79,66
+V93;Tetrahedral filling composite;€ 94,83
+V94;Composite hedral filling;€ 121,38
+V95;Complete shape restoration of tooth or molar with composite (restoration of anatomical crown);€ 189,66
+V80;Applying the first root canal post;€ 44
+V85;Insertion of each subsequent root canal post in the same element;€ 28,83
+V15;Applying a shield of tooth-colored plastic material (facing);€ 91,04
+V30;Application of fissure varnish first element (sealing);€ 34,14
+V35;Application of fissure lacquer (sealing) each subsequent element in the same seat;€ 18,97
+V40;Polishing, grinding and updating old fillings;€ 7,59
+;;
+Taking and/or assessing photos (X);;
+;;
+Code;Description;Tariff
+X11;Assessing small X-ray;€ 15,93
+X21;Taking and assessing jaw overview photo;€ 91,04
+X22;Making and assessing jaw overview photo for implantology in the edentulous jaw;€ 91,04
+X23;Assessing jaw overview photo;€ 33,38
+X24;Taking and assessing skull photo;€ 40,97
+X34;Assessing skull photo;€ 30,35
+X25;Making and assessing a multidimensional jaw photo;€ 257,94
+X26;Assessing multidimensional jaw photo;€ 75,86
+;;
+Provision of information and mutual services (Y);;
+Code;Description;Tariff
+Y01;Provision of information to third parties, per five minutes;€ 17,28
+Y02;Mutual services;€Maximum
