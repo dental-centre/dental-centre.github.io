@@ -1,5 +1,6 @@
 ﻿Verdoving (A);;
 Code;Prestaties;Tarief
+A10;Geleidings-, infiltratie- en/of intraligamentaire verdoving;€ 18,97
 A15;Oppervlakte verdoving;€ 9,86
 A20;Behandeling onder algehele anesthesie of sedatie;€kostprijs
 A30;Voorbereiding behandeling onder algehele anesthesie;€ 60,69
@@ -364,3 +365,4 @@ Informatieverstrekking en onderlinge dienstverlening (Y);;
 Code;Prestaties;Tarief
 Y01;Informatieverstrekking aan derden, per vijf minuten;€ 17,28
 Y02;Onderlinge dienstverlening;€Maximum
+
