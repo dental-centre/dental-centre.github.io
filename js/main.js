@@ -72,21 +72,33 @@ function main() {
 
             $(".form-overlay").css('display', 'flex');
 
-            $.ajax({
-                url: 'https://nodesingh.herokuapp.com/mailserver',
+           $.ajax({
+                url: 'https://formspree.io/f/xwprwjgk',  // Replace with your Formspree URL, e.g., 'https://formspree.io/f/xwprwjgk'
                 type: 'post',
                 headers: {
-                    'Access-Control-Allow-Origin': '*'
+                    'Accept': 'application/json'  // Enables JSON responses for error handling
                 },
-                contentType: 'application/json',
-                data: JSON.stringify($("#register-form").serializeArray()),
-                crossData: true,
+                contentType: 'application/x-www-form-urlencoded',  // Formspree expects this format
+                data: $("#register-form").serialize(),  // Serialized form data (name=value&name=value)
+                crossDomain: true,
                 processData: false,
                 success: function (data, textStatus, jQxhr) {
-                    $(".form-overlay .loading").css('display', 'none');
-                    $(".form-overlay .success").css('display', 'block');
+                    if (data.ok) {  // Formspree success indicator
+                        $(".form-overlay .loading").css('display', 'none');
+                        $(".form-overlay .success").css('display', 'block');
+                    } else {
+                        // Fallback for unexpected success response
+                        $(".form-overlay .loading").css('display', 'none');
+                        $(".form-overlay .failure").css('display', 'block');
+                    }
                 },
                 error: function (jqXhr, textStatus, errorThrown) {
+                    let errorMessage = 'Formulierverzending is mislukt!';
+                    if (jqXhr.status === 400 && jqXhr.responseJSON && jqXhr.responseJSON.errors) {
+                        // Parse Formspree validation errors (e.g., invalid email)
+                        errorMessage = jqXhr.responseJSON.errors.map(function(error) { return error.message; }).join(', ');
+                    }
+                    $(".form-overlay .failure div:first-child").text(errorMessage);  // Update failure message dynamically
                     $(".form-overlay .loading").css('display', 'none');
                     $(".form-overlay .failure").css('display', 'block');
                 }
@@ -124,6 +136,7 @@ function closeFormOverlay() {
     $(".form-overlay .loading").css('display', 'block');
     $(".form-overlay .success").css('display', 'none');
     $(".form-overlay .failure").css('display', 'none');
+    $(".form-overlay .failure div:first-child").text('Formulierverzending is mislukt / Error sending the form. Contact: receptie@dental-centre.nl');  // Reset custom error message
 }
 
 function resetForm() {
